@@ -125,6 +125,20 @@
     <p>&copy; 2024 At-Bashy Travel. All rights reserved.</p> 
   </footer> 
  
+   
+<!-- js --> 
+<script> 
+    function toggleItinerary(button) { 
+      const itinerary = button.nextElementSibling; 
+      if (itinerary.style.display === "block") { 
+        itinerary.style.display = "none"; 
+        button.textContent = "View Itinerary"; 
+      } else { 
+        itinerary.style.display = "block"; 
+        button.textContent = "Hide Itinerary"; 
+      } 
+    } 
+  </script> 
 
 </body> 
 </html>
